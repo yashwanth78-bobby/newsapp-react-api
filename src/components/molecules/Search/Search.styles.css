@@ -1,0 +1,23 @@
+.search-form {
+  display: flex;
+  align-items: center;
+}
+
+.search-input {
+  padding: 8px 192px 8px 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 50px;
+  margin-right: 8px;
+  flex-grow: 1;
+}
+
+.search-button {
+  padding: 8px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+}

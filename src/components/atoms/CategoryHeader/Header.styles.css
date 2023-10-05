@@ -1,0 +1,21 @@
+h3 {
+  font-size: 24px;
+  font-weight: 520;
+  display: flex;
+  padding-left: 40px;
+}
+
+.category-caret-right {
+  width: 24px;
+  height: 24px;
+  padding-top: 4px;
+}
+
+.category-header-wrapper {
+  cursor: pointer;
+  color: #1867dc;
+}
+
+.category-header-title {
+  text-transform: capitalize;
+}

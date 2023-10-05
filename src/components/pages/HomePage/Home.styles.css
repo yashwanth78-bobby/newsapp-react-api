@@ -1,0 +1,61 @@
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 30px;
+  text-align: center;
+  margin: 0 100px 0 100px;
+}
+
+.flex-item-left {
+  /* background-color: #f1f1f1; */
+  /* padding: 10px; */
+
+  /* width: 100%;
+  height: 100%; */
+  flex: 30%;
+  border-radius: 30px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  background-color: #fff;
+  margin: 20px 20px 20px 20px;
+  /* align-content: center; */
+  /* justify-content: center; */
+  /* display: flex; */
+}
+.flex-item-center {
+  /* background-color: #f1f1f1; */
+  /* padding: 10px; */
+
+  /* width: 100%;
+  height: 100%; */
+  flex: 30%;
+  border-radius: 30px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  background-color: #fff;
+  margin: 20px 20px 20px 20px;
+  /* align-content: center; */
+  /* justify-content: center; */
+  /* display: flex; */
+}
+
+.flex-item-right {
+  flex: 30%;
+  border-radius: 30px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  background-color: #fff;
+  margin: 20px 20px 20px 20px;
+}
+.flex-item-center {
+  flex: 30%;
+}
+
+/* Responsive layout - makes a one column-layout instead of a two-column layout */
+@media (max-width: 1200px) {
+  .flex-item-right,
+  .flex-item-left,
+  .flex-item-center {
+    flex: 100%;
+  }
+}

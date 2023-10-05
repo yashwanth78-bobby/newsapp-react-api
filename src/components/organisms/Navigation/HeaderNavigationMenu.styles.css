@@ -1,0 +1,41 @@
+.header-wrapper {
+  color: #fff;
+  float: left;
+  width: 12%;
+}
+.search-button-wrapper {
+  margin: 0 auto;
+  display: table;
+  background-color: #333;
+}
+.title {
+  font-size: 24px;
+  font-weight: bold;
+  padding-left: 8px;
+}
+
+.header-navigation-menu-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+}
+
+.navigation {
+  display: flex;
+}
+
+.link {
+  margin-right: 16px;
+  color: #fff;
+  text-decoration: none;
+  font-size: 24px;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
+
+.home-icon {
+  border: 2px solid #fff;
+}
